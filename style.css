@@ -284,14 +284,14 @@ footer {
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
-  margin: 10px;
-
+  height: 500px;
+  width: 600px;
+  margin: 15px;
 }
 .footer-texto {
   font-size: 1.5rem;
   padding: 20px;
+  color: #7ade30;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -311,7 +311,7 @@ footer {
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: rgb(145, 230, 89);
   font-size: 1.5rem;
   transition: all 0.2s ease-in ;
 }
@@ -328,7 +328,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 15px;
-  color:#aeaeae;
+  color:#2fe40b;
   padding: 20px;
   
  
