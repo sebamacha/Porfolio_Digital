@@ -2,6 +2,9 @@
 .navbar {
   padding: 2rem;
   background-color: #d5dadf;
+  color: #000000;
+  font-size: 27px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .navbar-collapse {
@@ -25,6 +28,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0px;
   font-family: "Tilt Warp", cursive;
+  min-height: 250;
 }
 
 .seccion-texto {
@@ -44,6 +48,7 @@ h1 {
 .seccion-oscura {
   color: white;
   background-color: #1b1b32;
+  
 }
 
 .seccion-clara {
@@ -54,11 +59,14 @@ h1 {
 .seccion-descripcion {
   font-size: 1.2rem;
   color: #271d1d;
+  min-height: 250
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
+  min-height: 250;
   text-align: center;
+  padding: auto;
 }
 
 /*experiencia*/
@@ -280,10 +288,11 @@ h1 {
 /*pie de pagina*/
 
 footer {
-  min-height: 500px;
+  min-height: 450px;
 }
 
 .footer-logo {
+  object-fit:cover;
   height: 500px;
   width: 600px;
   margin: 15px;
@@ -317,7 +326,7 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
+  background-color: #71DE30;
   border: 2px solid rgb(27, 27, 50);
 
 }
