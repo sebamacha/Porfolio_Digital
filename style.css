@@ -39,7 +39,7 @@ h1 {
 /*sobre mi*/
 
 .sobre-mi {
-  height: 500px;
+  height: autopx;
   padding: 10px;
 }
 
